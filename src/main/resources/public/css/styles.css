@@ -1,0 +1,212 @@
+body{
+    margin: 0;
+}
+
+/*#y-axis{
+    width: 1px;
+    height: 10px;
+    background: red;
+    justify-self: center;
+}*/
+
+/* Navigation */
+nav{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#login-name{
+    width: 300px;
+    /*border: 1px solid red;*/
+}
+
+#name{
+    font-family: Arial, serif;
+    margin: 10px 0 10px 20px;
+    font-size: 20px;
+    justify-self: left;
+}
+
+#logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: darkred;
+}
+
+#title{
+    margin: 0;
+    font-size: 40px;
+    font-family: "Times New Roman", serif;
+    font-weight: lighter;
+}
+
+#slogan{
+    margin: 0;
+    font-size: 20px;
+    align-self: center;
+}
+
+#burger-menu{
+    align-content: center;
+    margin: 0;
+    width: 300px;
+    /*border: 1px solid red;*/
+}
+
+.line{
+    background: black;
+    color: darkred;
+    width: 40px;
+    height: 2px;
+    margin: 10px 20px 10px 0;
+    justify-self: right;
+}
+
+/* Body */
+main{
+    width: 100vw;
+    height: 100%;
+    justify-items: center;
+    font-family: "Arial", serif;
+}
+
+.container p{
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 30px 0 5px 0;
+}
+
+#add-input, #add-btn {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    height: 40px;
+}
+
+#add-input{
+    width: 200px;
+    background: white;
+    border: 2px solid lightgray;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+#add-btn{
+    width: 60px;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+#add-btn:hover{
+    background: whitesmoke;
+    cursor: pointer;
+    box-shadow: gray 0 0 5px;
+}
+
+h1{
+    font-family: Arial, serif;
+    letter-spacing: -1px;
+    font-weight: 200;
+    text-decoration: underline solid #5a9d3e auto;
+}
+
+table{
+    border-collapse: collapse;
+    width: 500px;
+    table-layout: fixed;
+}
+
+th{
+    font-size: 24px;
+    text-align: left;
+}
+
+th:nth-child(1), td:nth-child(1){
+    width: 50%;
+}
+
+th:nth-child(2), td:nth-child(2){
+    width: 25%;
+}
+
+th:nth-child(3), td:nth-child(3){
+    width: 25%;
+}
+
+td{
+    padding: 10px 30px 10px 0;
+    font-size: 20px;
+}
+
+.item{
+    padding-left: 30px;
+}
+
+td button{
+    width: 70px;
+    height: 35px;
+    font-size: 18px;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    text-align: center;
+}
+
+td button:hover{
+    background: whitesmoke;
+    cursor: pointer;
+    box-shadow: gray 0 0 5px;
+}
+
+td .remove-btn{
+    width: 90px;
+    height: 35px;
+    font-size: 18px;
+    color: white;
+    background: #fa3535;
+    border: 2px solid darkred;
+    border-radius: 5px;
+}
+
+td .remove-btn:hover{
+    background: #ec0000;
+    cursor: pointer;
+    box-shadow: darkred 0 0 5px;
+}
+
+.odd{
+    background: white;
+}
+
+.even{
+    background: whitesmoke;
+}
+
+#log-out{
+    margin-top: 60px;
+    width: 100px;
+    height: 50px;
+    font-size: 24px;
+    text-decoration: underline solid #5a9d3e auto;
+    border-radius: 10px;
+    border: none;
+    background: white;
+}
+
+#log-out:hover{
+    background: #b0d16f;
+    cursor: pointer;
+}
