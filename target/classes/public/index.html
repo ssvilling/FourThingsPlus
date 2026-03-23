@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frontpage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css/styles.css" rel="stylesheet"/>
+</head>
+
+<body>
+
+<h1>hej</h1>
+
+<div id="usernameDisplay"></div>
+
+<input type="text" id="noteInput" placeholder="Skriv noget...">
+<button onclick="addNote()">Tilføj</button>
+<button onclick="logout()">Log ud</button>
+
+<h2>Doing</h2>
+<ul id="doingList"></ul>
+
+<h2>Done</h2>
+<ul id="doneList"></ul>
+
+<ul id="notesList"></ul>
+
+<script src="/script.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        loadUser();
+        loadNotes();
+    });
+</script>
+
+</body>
+</html>
