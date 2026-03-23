@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="carpool-app" />
+        <module name="myproject" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="carpool-app" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
