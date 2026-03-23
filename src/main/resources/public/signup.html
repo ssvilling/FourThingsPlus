@@ -1,28 +1,19 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Opret bruger</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/register.css">
 </head>
-
 <body>
-
-<h2>Opret bruger</h2>
-
-<input id="username" placeholder="Brugernavn">
-<br><br>
-
-<input id="password" type="password" placeholder="Adgangskode">
-<br><br>
-
-<button onclick="createUser()">Opret</button>
-
-<br><br>
-
-<button onclick="goToLogin()">Tilbage til login</button>
-
-<script src="/script.js"></script>
+<div class="container">
+    <h1>Register user</h1>
+    <input id="username" placeholder="Username">
+    <input id="password" type="password" placeholder="Password">
+    <button onclick="createUser()">Register</button>
+    <button onclick="goToLogin()">Back to Login</button>
+    <script src="/script.js"></script>
 
 </body>
 </html>
