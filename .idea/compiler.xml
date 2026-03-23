@@ -9,8 +9,5 @@
         <module name="myproject" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="carpool-app" target="17" />
-    </bytecodeTargetLevel>
   </component>
 </project>

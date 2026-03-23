@@ -36,7 +36,7 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: darkred;
+    color: #317111;
 }
 
 #title{
@@ -61,9 +61,9 @@ nav{
 
 .line{
     background: black;
-    color: darkred;
+    color: black;
     width: 40px;
-    height: 2px;
+    height: 3px;
     margin: 10px 20px 10px 0;
     justify-self: right;
 }
@@ -102,18 +102,18 @@ main{
 
 #add-btn{
     width: 60px;
-    background: white;
+    background: #b3ef9e;
     border-radius: 5px;
-    border: 2px solid darkgray;
+    border: 2px solid #5a9d3e;
     font-size: 20px;
     text-align: center;
     margin-left: 5px;
 }
 
 #add-btn:hover{
-    background: whitesmoke;
+    background: #9ae886;
     cursor: pointer;
-    box-shadow: gray 0 0 5px;
+    box-shadow: #5a9d3e 0 0 5px;
 }
 
 h1{
@@ -207,6 +207,6 @@ td .remove-btn:hover{
 }
 
 #log-out:hover{
-    background: #b0d16f;
+    background: #85d56a;
     cursor: pointer;
 }
